@@ -1,0 +1,52 @@
+.reviews
+  // position: relative
+  padding: 65px 0
+  &__title
+    font-size: 40px
+    line-height: 50px
+    text-transform: uppercase
+    color: $primery
+    margin-bottom: 40px
+    text-align: center
+.review
+  max-width: 835px
+  margin: auto
+  display: flex
+  align-items: center
+  &__text
+    vertical-align: middle
+    font-size: 18px
+    line-height: 30px
+  &__author
+    display: block
+    font-size: 18px
+    line-height: 30px
+    text-transform: uppercase
+    margin-top: 19px
+  &__image
+    height: 568px
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+  &__img
+    max-width: 407px
+    height: 272px
+    object-fit: cover
+.swiper
+  &-container
+    max-width: 1036px
+.arrow
+  position: absolute
+  top: 50%
+  transform: translate(0, -50%)
+  width: 72px
+  height: 72px
+  border-radius: 50%
+  z-index: 100
+.button
+  &-prev
+    left: 0
+    background: #CC8B86 url('../img/arrow-prev.svg') no-repeat center center
+  &-next
+    right: 0
+    background: #CC8B86 url('../img/arrow-next.svg') no-repeat center center

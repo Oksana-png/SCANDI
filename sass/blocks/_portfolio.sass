@@ -1,0 +1,77 @@
+.portfolio
+  padding: 65px 0
+  &__title
+    font-style: normal
+    font-weight: normal
+    font-size: 40px
+    line-height: 50px
+    text-transform: uppercase
+    color: #533738
+    margin: 0
+    margin-bottom: 40px
+  &__cards
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__more
+    text-decoration: none
+    display: flex
+    align-items: center
+    justify-content: center
+    font-style: normal
+    font-weight: 500
+    font-size: 30px
+    line-height: 37px
+    color: $primery
+  &__arrow
+    margin-left: 10px
+  &__arrows
+    width: 60px
+.card
+  max-height: 451px
+  margin-bottom: 30px
+  &--main
+    display: flex
+    flex-direction: column
+    background: url('../img/card-1.jpg') no-repeat
+    width: 100%
+    position: relative
+    width: 488px
+    padding: 86px 35px 0 35px
+    &:before
+      z-index: 0
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      background: rgba(100, 72, 69, 0.8)
+  &__title
+    z-index: 99
+    margin: 0
+    margin-bottom: 22px
+    text-align: center
+    font-style: normal
+    font-weight: 500
+    font-size: 30px
+    line-height: 37px
+    text-align: center
+    color: $light
+  &__text
+    z-index: 99
+    margin: 0
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 30px
+    color: $light
+  &__photo
+    width: 100%
+    height: 100%
+    object-fit: cover
+.photo
+  &-1
+    width: 692px
+  &-2
+    width: 692px
