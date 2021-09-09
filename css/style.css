@@ -546,6 +546,7 @@ button:hover {
 
 .swiper-container {
   max-width: 1036px;
+  overflow: hidden;
 }
 
 .arrow {
